@@ -74,8 +74,10 @@ struct ContentView: View {
                         })
                     }//: HSTACK
                     .padding()
+                    
                     .foregroundColor(.white)
                     Spacer(minLength: 80)
+                    
                     //            MARK: New Task Button
                     Button(action: {
                         showNewTaskItem = true
